@@ -1,62 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-        <meta charset="UTF-8">
-        <meta name="author" content="Michael Kerr">
-        <meta name="description" content="This page is going to be a portfolio of all the things I learn through my Web Design journey!">
-        <title>Michael's Portfolio</title> 
-        <link rel="icon" href="HTML5Icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Michael Kerr">
+    <meta name="description" content="This page is going to be a portfolio of all the things I learn through my HTML journey!">
+    <title>Michael's Portfolio</title> 
+    <link rel="icon" href="images/HTML5Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-<h1>Michael's Portfolio</h1>
+    <h1>Michael's HTML Home</h1>
 
-<hr>
+    <hr>
 
-<h3>Starting with the basics...HTML</h3>
-<p>This is my first trial on Web Design, and where I'll be compiling my skills.
-    <br>So far it's pretty rudimentary after coding a text-based adventure game in C#.
-    <br>But I'm <em><strong>excited to learn</strong></em>!
-</p>
+    <nav>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#Learning">Studies</a></li>
+            <li><a href="#Why">Why</a></li>
+            <li><a href="#Travel">Moving Destinations</a></li>
+            <li><a href="#Links">Links</a></li>
+        </ul>
+    </nav>
 
-<hr>
+    <hr>
 
-<h3>Goals</h3>
-<p>What order to tackle them.</p>
-<ol>
-<li>HTML5</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>TechStack</li>
-</ol>
+<section id="Intro">
+    <h3>&lt;h1&gt;Hello World!&lt;h1&gt;</h3>
+    <img src="/images/HTML5_logo_big.png" alt="HTML5 Logo" height="300" width="300" title="I'm learning HTML5">
+    
+    <p>This is my first trial on Web Design, and where I'll be compiling my skills.
+        <br>So far it's pretty rudimentary after coding a text-based adventure game in C#.
+        <br>But I'm <em><strong>excited to learn</strong></em>!
+    </p>
+</section>
 
-<hr>
+    <hr>
 
-<h3>Why I'm doing this?</h3>
-<ul>
-<li><p><em>Financial stability</em> and a career change.</p></li>
-<li><p>The potential for more at home, family, and travel time with <em>remote work</em>.</p></li>
-</ul>
+<section id="Learning">
+    <h3><abbr title="...trying to learn">What I'm Learning</abbr></h3>
+    <ol>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>TechStack</li>
+    </ol>
+</section>
 
-<hr>
+    <hr>
 
-<h3>Places I'd like to move to.</h3>
-<dl>
-    <dt>Tennessee</dt>
-    <dd>Been there, liked the weather and nature.</dd>
+<section id="Why">
+    <h3>Why I'm doing this</h3>
+    <ul>
+        <li>
+            <p><em>Financial stability</em> and a career change.</p>
+        </li>
+        <li>
+            <p>The potential for more at home, family, and travel time with <em>remote work</em>.</p>
+        </li>
+    </ul>
+</section>
 
-    <dt>Texas</dt>
-    <dd>Don't know much but its <strong>warm</strong>!</dd>
+    <hr>
+<section id="Travel">
+    <h3>Places I'd like to move</h3>
+    <dl>
+        <dt>Tennessee</dt>
+        <dd>Been there,liked the weather and nature.</dd>
 
-    <dt>Downstate</dt>
-    <dd>Familiar, close to <em>family</em>,easier move,slightly warmer.</dd>
-</dl>
+        <dt>Texas</dt>
+        <dd>Don't know much but its <strong>warm</strong>!</dd>
 
-<hr>
+        <dt>Downstate</dt>
+        <dd>Familiar,close to <em>family</em>,easier move,slightly warmer.</dd>
 
+        <dt>Carolinas</dt>
+        <dd>Close to the ocean, warm, decent cities.</dd>
+    </dl>
+</section>
+
+    <hr>
+
+<section id="Links">
+    <h3>Links</h3>
+    <a href="/pages/resources.html">Resources</a>
+    <a href="/pages/about.html">About me</a>
+    <a href="#">Back to Top</a>
+</section>
+
+    <hr>
+    <div id="copyright">&lt;&lt;&lt; &copy; Michael Kerr &gt;&gt;&gt;</div>
 </body>
-
-<h3>Resources</h3>
-<a href="./pages/about.html">Helpful Links</a>
-<hr>
-&lt;&lt;&lt; &copy; Michael Kerr &gt;&gt;&gt;
+</html>
